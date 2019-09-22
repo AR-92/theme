@@ -3,16 +3,55 @@
 
 <head>
     <title>Theme | Pearl - Bootstrap 4 Web Application</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="utf-8">
     <meta name="description" content="Responsive, Bootstrap, BS4">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
     <link rel="stylesheet" href="../assets/css/site.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.15.4/dist/bootstrap-table.min.css">
+    <style>
+        .feather {
+            width: 16px;
+            height: 16px;
+        }
+    </style>
 </head>
 
-<body>
-    <h1>hello world</h1>
-    <div id="root"></div>
+<body class="layout-row">
+    <div id="aside" class="page-sidenav no-shrink bg-light nav-dropdown fade" aria-hidden="true"></div>
+    <div id="main" class="layout-column flex">
+        <div id="header" class="page-header"></div>
+        <div id="content" class="flex">
+            <div>
+                <div class="page-hero page-container" id="page-hero">
+                    <div class="padding d-flex">
+                        <div class="page-title">
+                            <h2 class="text-md text-highlight">Blank</h2>
+                            <small class="text-muted">Start application in a blank page</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-content page-container" id="page-content">
+                </div>
+            </div>
+        </div>
+        <div id="footer" class="page-footer hide"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/af.js" integrity="sha256-I5ZXO8KcMnqNkrXU7baGig70nATYjNDnxxA2d40PcR8=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.15.4/dist/bootstrap-table.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pjax@VERSION/pjax.min.js"></script>
+    <script src="https://unpkg.com/jscroll/dist/jquery.jscroll.min.js"></script>
+
+    <script src="./common/sidebar.js"></script>
+    <script src="./common/header.js"></script>
+    <script src="./common/footer.js"></script>
+    <script src="./index.js"></script>
 </body>
 
 </html>
