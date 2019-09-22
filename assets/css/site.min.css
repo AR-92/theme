@@ -10657,7 +10657,7 @@ a.list-group-item:hover {
 .modal-footer {
     margin-top: auto;
     border-bottom-left-radius: inherit;
-    border-tbottomop-right-radius: inherit
+    /* border-tbottomop-right-radius: inherit */
 }
 
 .modal .close {
@@ -12558,7 +12558,7 @@ fieldset[disabled] .ui-check input+i:before {
         position: fixed;
         z-index: 1050!important;
         display: none;
-        opactiy: 0
+        /* opactiy: 0 */
     }
     .bg-dark .page-sidenav,
     .page-sidenav {
@@ -15301,7 +15301,7 @@ a.text-blue:hover {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    text-fill-color: transparent
+    /* text-fill-color: transparent */
 }
 
 .text {
