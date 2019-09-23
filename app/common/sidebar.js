@@ -3,7 +3,6 @@ var appSideBar = {
         <div class="sidenav h-100 modal-dialog bg-light">
             <div class="navbar">
             <a href="index.html" class="navbar-brand">
-            <i data-feather="circle"></i>
             <span class="hidden-folded d-inline l-s-n-1x">Pearl</span>
             </a>
             </div>
