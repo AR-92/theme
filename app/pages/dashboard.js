@@ -1,10 +1,10 @@
-var appLockScreen = {
+var appDashboard = {
     html: `
     <div>
         <div class="page-hero page-container" id="page-hero">
             <div class="padding d-flex">
                 <div class="page-title">
-                    <h2 class="text-md text-highlight">Loack Screen </h2>
+                    <h2 class="text-md text-highlight">Dashboard</h2>
                     <small class="text-muted">Start application in a blank page</small>
                 </div>
             </div>

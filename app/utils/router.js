@@ -1,3 +1,3 @@
 function route(name) {
-    eval(`${name}().init()`)
+    eval(`${name}.init()`)
 }
