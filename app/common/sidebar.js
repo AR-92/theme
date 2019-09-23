@@ -115,7 +115,7 @@ var appSideBar = {
             if ($(this).hasClass('active')) {
                 $(this).toggleClass("active");
             } else {
-                $('.nav > li ').removeClass('active')
+                // $('.nav > li ').removeClass('active')
                 $(this).toggleClass("active");
             }
         }
