@@ -7,17 +7,47 @@ var appHeader = {
                 data-api="../assets/api/menu.json"></form>
     </div>
     <ul class="nav navbar-menu order-1 order-lg-2">
-        <li class="nav-item d-none d-sm-block"><a class="nav-link px-2" data-toggle="fullscreen" data-plugin="fullscreen"><i data-feather="maximize"></i></a></li>
+        <li class="nav-item d-none d-sm-block"><a class="nav-link px-2" id="toggleFullScreen"><i data-feather="maximize"></i></a></li>
         <li class="nav-item dropdown"><a class="nav-link px-2" data-toggle="dropdown"><i data-feather="settings"></i></a>
             <div class="dropdown-menu dropdown-menu-center mt-3 w animate fadeIn">
                 <div class="setting px-3">
                     <div class="mb-2 text-muted"><strong>Setting:</strong></div>
-                    <div class="mb-3" id="settingLayout"><label class="ui-check ui-check-rounded my-1 d-block"><input type="checkbox" name="stickyHeader"> <i></i> <small>Sticky header</small></label><label class="ui-check ui-check-rounded my-1 d-block"><input type="checkbox" name="stickyAside"> <i></i> <small>Sticky aside</small></label>
-                        <label class="ui-check ui-check-rounded my-1 d-block"><input type="checkbox" name="foldedAside"> <i></i> <small>Folded Aside</small></label><label class="ui-check ui-check-rounded my-1 d-block"><input type="checkbox" name="hideAside"> <i></i> <small>Hide Aside</small></label></div>
+                    <div class="mb-3" id="settingLayout">
+                    <label class="ui-check ui-check-rounded my-1 d-block">
+                    <input onclick="appHeader.stickyHeader()" type="checkbox" name="stickyHeader"> 
+                    <i></i> 
+                    <small>Sticky header</small></label>
+                    <label class="ui-check ui-check-rounded my-1 d-block">
+                    <input onclick="appHeader.stickyAside()" type="checkbox" name="stickyAside"> 
+                    <i></i> <small>Sticky aside</small>
+                    </label>
+                        <label class="ui-check ui-check-rounded my-1 d-block">
+                        <input onclick="appHeader.foldedAside()" type="checkbox" name="foldedAside"> 
+                        <i></i> 
+                        <small>Folded Aside</small>
+                        </label>
+                        <label class="ui-check ui-check-rounded my-1 d-block">
+                        <input onclick="appHeader.hideAside()" type="checkbox" name="hideAside"> 
+                        <i></i> 
+                        <small>Hide Aside</small>
+                        </label>
+                        </div>
                     <div class="mb-2 text-muted"><strong>Color:</strong></div>
-                    <div class="mb-2"><label class="radio radio-inline ui-check ui-check-md"><input type="radio" name="bg" value=""> <i></i></label><label class="radio radio-inline ui-check ui-check-color ui-check-md"><input type="radio" name="bg" value="bg-dark"> <i class="bg-dark"></i></label></div>
+                    <div class="mb-2">
+                    <label class="radio radio-inline ui-check ui-check-md">
+                    <input type="radio" onclick="appHeader.lightTheme()" name="bg" value=""> 
+                    <i></i>
+                    </label>
+                    <label class="radio radio-inline ui-check ui-check-color ui-check-md">
+                    <input type="radio" name="bg" onclick="appHeader.darkTheme()" value="bg-dark"> 
+                    <i class="bg-dark"></i>
+                    </label>
+                    </div>
                     <div class="mb-2 text-muted"><strong>Layouts:</strong></div>
-                    <div class="mb-3"><a href="dashboard.html" class="btn btn-xs btn-white no-ajax mb-1">Default</a> <a href="layout.a5523.html?bg" class="btn btn-xs btn-primary no-ajax mb-1">A</a> <a href="layout.b5523.html?bg" class="btn btn-xs btn-info no-ajax mb-1">B</a>                                    <a href="layout.c5523.html?bg" class="btn btn-xs btn-success no-ajax mb-1">C</a></div>
+                    <div class="mb-3">
+                    <a onclick="route('appDashboard')" class="btn btn-xs btn-white no-ajax mb-1">Default</a> 
+                    <a href="layout.a5523.html?bg" class="btn btn-xs btn-primary no-ajax mb-1">A</a> 
+                    <a href="layout.b5523.html?bg" class="btn btn-xs btn-info no-ajax mb-1">B</a>                                    <a href="layout.c5523.html?bg" class="btn btn-xs btn-success no-ajax mb-1">C</a></div>
                     <div class="mb-2 text-muted"><strong>Apps:</strong></div>
                     <div><a href="dashboard.html" class="btn btn-sm btn-white no-ajax mb-1">Dashboard</a> <a href="music5523.html?bg" class="btn btn-sm btn-white no-ajax mb-1">Music</a> <a href="video5523.html?bg" class="btn btn-sm btn-white no-ajax mb-1">Video</a></div>
                 </div>
@@ -66,14 +96,23 @@ var appHeader = {
                     </div>
                 </div>
                 <div class="d-flex px-3 py-2 b-t">
-                    <div class="flex"><span>6 Notifications</span></div><a href="page.setting.html">See all <i class="fa fa-angle-right text-muted"></i></a></div>
+                    <div class="flex"><span>6 Notifications</span></div><a onclick="route('appSettings')">See all <i class="fa fa-angle-right text-muted"></i></a></div>
             </div>
         </li>
         <li class="nav-item dropdown"><a data-toggle="dropdown" class="nav-link d-flex align-items-center px-2 text-color"><span class="avatar w-24" style="margin: -2px"><img src="../assets/img/a3.jpg" alt="..."></span></a>
-            <div class="dropdown-menu dropdown-menu-right w mt-3 animate fadeIn"><a class="dropdown-item" href="page.profile.html"><span>Jacqueline Reid</span> </a><a class="dropdown-item" href="page.price.html"><span class="badge bg-success text-uppercase">Upgrade</span> <span>to Pro</span></a>
-                <div class="dropdown-divider"></div><a class="dropdown-item" href="page.profile.html"><span>Profile</span> </a><a class="dropdown-item d-flex" href="page.invoice.html"><span class="flex">Invoice</span> <span><b class="badge badge-pill gd-warning">5</b></span> </a>
-                <a class="dropdown-item" href="page.faq.html">Need help?</a>
-                <div class="dropdown-divider"></div><a class="dropdown-item" href="page.setting.html"><span>Account Settings</span> </a><a class="dropdown-item" href="signin.1.html">Sign out</a></div>
+            <div class="dropdown-menu dropdown-menu-right w mt-3 animate fadeIn">
+            <a class="dropdown-item" onclick="route('appProfile')">
+            <span>Jacqueline Reid</span> </a>
+            <a class="dropdown-item" onclick="route('appPrice')">
+            <span class="badge bg-success text-uppercase">Upgrade</span> <span>to Pro</span></a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" onclick="route('appProfile')"><span>Profile</span> </a>
+                <a class="dropdown-item d-flex" onclick="route('appInvoice')"><span class="flex">Invoice</span> <span>
+                <b class="badge badge-pill gd-warning">5</b></span> </a>
+                <a class="dropdown-item" onclick="route('appFAQ')">Need help?</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" onclick="route('appSettings')"><span>Account Settings</span> </a>
+                <a class="dropdown-item" onclick="route('appSignin')" >Sign out</a></div>
         </li>
         <li class="nav-item d-lg-none"><a class="nav-link px-2" data-toggle="collapse" data-toggle-class data-target="#navbarToggler"><i data-feather="search"></i></a></li>
         <li class="nav-item d-lg-none"><a class="nav-link px-1" data-toggle="modal" data-target="#aside"><i data-feather="menu"></i></a></li>
@@ -82,5 +121,31 @@ var appHeader = {
     `,
     init: function() {
         document.getElementById("header").innerHTML = this.html;
-    }
+        this.fullscreen();
+    },
+    fullscreen: function() {
+        $('#toggleFullScreen').click(function() {
+            screenfull.toggle($('#container')[0]).then(function() {
+                console.log('Fullscreen mode: ' + (screenfull.isFullscreen ? 'enabled' : 'disabled'))
+            });
+        });
+    },
+    darkTheme: function() {
+        $("html").addClass("bg-dark");
+    },
+    lightTheme: function() {
+        $("html").removeClass("bg-dark");
+    },
+    stickyHeader: function() {
+        $('.page-header').toggleClass('sticky');
+    },
+    stickyAside: function() {
+        $('.page-sidenav').toggleClass('sticky');
+    },
+    foldedAside: function() {
+        $('.page-sidenav').toggleClass('folded');
+    },
+    hideAside: function() {
+        $('.page-sidenav').toggleClass('hide');
+    },
 }

@@ -20,438 +20,83 @@ var appInfiniteScroll = {
 							<strong>Infinite Scroll</strong>
 						</div>
 						<div class="list list-row">
-							<div class="jscroll-inner">
-								<div class="list-item" data-id="15">
-									<div>
-										<a href="#">
-											<span class="w-48 avatar gd-success">J</span>
-										</a>
-									</div>
-									<div class="flex">
-										<a href="#" class="item-author text-color text-muted">Jean Armstrong</a>
-										<div class="item-feed h-2x">Fun project from this weekend. Both computer replicas are fully functional</div>
-									</div>
-									<div class="no-wrap">
-										<div class="item-date text-muted text-sm d-none d-md-block">03/12 18</div>
+							<div class="infiniteScroll1">
+										
 									</div>
 								</div>
-								<div class="list-item" data-id="12">
-									<div>
-										<a href="#">
-											<span class="w-48 avatar gd-info">A</span>
-										</a>
-									</div>
-									<div class="flex">
-										<a href="#" class="item-author text-color text-muted">Alan Richards</a>
-										<div class="item-feed h-2x">
-											<a href="#">Support</a> team updated the status
-										</div>
-									</div>
-									<div class="no-wrap">
-										<div class="item-date text-muted text-sm d-none d-md-block">5 hours ago</div>
-									</div>
-								</div>
-								<div class="list-item" data-id="17">
-									<div>
-										<a href="#">
-											<span class="w-48 avatar gd-warning">A</span>
-										</a>
-									</div>
-									<div class="flex">
-										<a href="#" class="item-author text-color text-muted">Alan Mendez</a>
-										<div class="item-feed h-2x">Alibaba made a smart screen 
-											<a href="#">@Alibaba</a>
-										</div>
-									</div>
-									<div class="no-wrap">
-										<div class="item-date text-muted text-sm d-none d-md-block">13/12 18</div>
-									</div>
-								</div>
-								<div class="list-item" data-id="11">
-									<div>
-										<a href="#">
-											<span class="w-48 avatar gd-info">K</span>
-										</a>
-									</div>
-									<div class="flex">
-										<a href="#" class="item-author text-color text-muted">Kenneth Pierce</a>
-										<div class="item-feed h-2x">Prepare the documentation for the 
-											<a href="#">Fitness app</a>
-										</div>
-									</div>
-									<div class="no-wrap">
-										<div class="item-date text-muted text-sm d-none d-md-block">20 minutes ago</div>
-									</div>
-								</div>
-								<div class="list-item" data-id="4">
-									<div>
-										<a href="#">
-											<span class="w-48 avatar gd-success">
-												<img src="../assets/img/a4.jpg" alt=".">
-												</span>
-											</a>
-										</div>
-										<div class="flex">
-											<a href="#" class="item-author text-color text-muted">Billy Johnston</a>
-											<div class="item-feed h-2x">Big News! Introducing 
-												<a href="#">NextUX</a> Enterprise 2.1 - additional #Windows Server support
-											</div>
-										</div>
-										<div class="no-wrap">
-											<div class="item-date text-muted text-sm d-none d-md-block">2 hours ago</div>
-										</div>
-									</div>
-									<div class="list-item" data-id="8">
-										<div>
-											<a href="#">
-												<span class="w-48 avatar gd-success">
-													<img src="../assets/img/a8.jpg" alt=".">
-													</span>
-												</a>
-											</div>
-											<div class="flex">
-												<a href="#" class="item-author text-color text-muted">Lawrence Cole</a>
-												<div class="item-feed h-2x">The biggest software developer conference</div>
-											</div>
-											<div class="no-wrap">
-												<div class="item-date text-muted text-sm d-none d-md-block">02/11 18</div>
-											</div>
-										</div>
-										<div class="list-item" data-id="3">
-											<div>
-												<a href="#">
-													<span class="w-48 avatar gd-primary">
-														<img src="../assets/img/a3.jpg" alt=".">
-														</span>
-													</a>
-												</div>
-												<div class="flex">
-													<a href="#" class="item-author text-color text-muted">Jordan Stephens</a>
-													<div class="item-feed h-2x">
-														<a href="#">@NextUI</a> submit a ticket request
-													</div>
-												</div>
-												<div class="no-wrap">
-													<div class="item-date text-muted text-sm d-none d-md-block">1 hour ago</div>
-												</div>
-											</div>
-											<div class="list-item" data-id="14">
-												<div>
-													<a href="#">
-														<span class="w-48 avatar gd-warning">B</span>
-													</a>
-												</div>
-												<div class="flex">
-													<a href="#" class="item-author text-color text-muted">Benjamin Fields</a>
-													<div class="item-feed h-2x">Do you know which are the popular ones? Leave a comment and get to know more from professional developers</div>
-												</div>
-												<div class="no-wrap">
-													<div class="item-date text-muted text-sm d-none d-md-block">1 day ago</div>
-												</div>
-											</div>
-											<div class="list-item" data-id="7">
-												<div>
-													<a href="#">
-														<span class="w-48 avatar gd-primary">
-															<img src="../assets/img/a7.jpg" alt=".">
-															</span>
-														</a>
-													</div>
-													<div class="flex">
-														<a href="#" class="item-author text-color text-muted">Frank Kelley</a>
-														<div class="item-feed h-2x">From design to dashboard, 
-															<a href="#">@Dash</a> builds custom hardware according to on-site requirements
-														</div>
-													</div>
-													<div class="no-wrap">
-														<div class="item-date text-muted text-sm d-none d-md-block">21 July</div>
-													</div>
-												</div>
-												<div class="list-item" data-id="17">
-													<div>
-														<a href="#">
-															<span class="w-48 avatar gd-warning">H</span>
-														</a>
-													</div>
-													<div class="flex">
-														<a href="#" class="item-author text-color text-muted">Helen Valdez</a>
-														<div class="item-feed h-2x">AI will deliver adaptive learning processes in assessments &amp; digital textbooks to personalize learning</div>
-													</div>
-													<div class="no-wrap">
-														<div class="item-date text-muted text-sm d-none d-md-block">13/12 18</div>
-													</div>
-												</div>
-												<div class="jscroll-added">
-													<div class="list-item" data-id="1">
-														<div>
-															<a href="#">
-																<span class="w-48 avatar gd-primary">
-																	<img src="../assets/img/a1.jpg" alt=".">
-																	</span>
-																</a>
-															</div>
-															<div class="flex">
-																<a href="#" class="item-author text-color text-muted">Joyce McCoy</a>
-																<div class="item-feed h-2x">
-																	<a href="#">@WordPress</a> How To Get Started With WordPress
-																</div>
-															</div>
-															<div class="no-wrap">
-																<div class="item-date text-muted text-sm d-none d-md-block">20 minutes ago</div>
-															</div>
-														</div>
-														<div class="list-item" data-id="6">
-															<div>
-																<a href="#">
-																	<span class="w-48 avatar gd-danger">
-																		<img src="../assets/img/a6.jpg" alt=".">
-																		</span>
-																	</a>
-																</div>
-																<div class="flex">
-																	<a href="#" class="item-author text-color text-muted">Wayne Gray</a>
-																	<div class="item-feed h-2x">Just saw this on the 
-																		<a href="#">@eBay</a> dashboard, dude is an absolute unit.
-																	</div>
-																</div>
-																<div class="no-wrap">
-																	<div class="item-date text-muted text-sm d-none d-md-block">1 Week ago</div>
-																</div>
-															</div>
-															<div class="list-item" data-id="4">
-																<div>
-																	<a href="#">
-																		<span class="w-48 avatar gd-success">
-																			<img src="../assets/img/a4.jpg" alt=".">
-																			</span>
-																		</a>
-																	</div>
-																	<div class="flex">
-																		<a href="#" class="item-author text-color text-muted">Billy Johnston</a>
-																		<div class="item-feed h-2x">Big News! Introducing 
-																			<a href="#">NextUX</a> Enterprise 2.1 - additional #Windows Server support
-																		</div>
-																	</div>
-																	<div class="no-wrap">
-																		<div class="item-date text-muted text-sm d-none d-md-block">2 hours ago</div>
-																	</div>
-																</div>
-																<div class="list-item" data-id="13">
-																	<div>
-																		<a href="#">
-																			<span class="w-48 avatar gd-primary">L</span>
-																		</a>
-																	</div>
-																	<div class="flex">
-																		<a href="#" class="item-author text-color text-muted">Lisa Chapman</a>
-																		<div class="item-feed h-2x">Thanks! Awesome to see good support on Twitter</div>
-																	</div>
-																	<div class="no-wrap">
-																		<div class="item-date text-muted text-sm d-none d-md-block">3 weeks ago</div>
-																	</div>
-																</div>
-																<div class="list-item" data-id="8">
-																	<div>
-																		<a href="#">
-																			<span class="w-48 avatar gd-success">
-																				<img src="../assets/img/a8.jpg" alt=".">
-																				</span>
-																			</a>
-																		</div>
-																		<div class="flex">
-																			<a href="#" class="item-author text-color text-muted">Lawrence Cole</a>
-																			<div class="item-feed h-2x">The biggest software developer conference</div>
-																		</div>
-																		<div class="no-wrap">
-																			<div class="item-date text-muted text-sm d-none d-md-block">02/11 18</div>
-																		</div>
-																	</div>
-																</div>
-																<div class="jscroll-added">
-																	<div class="list-item" data-id="1">
-																		<div>
-																			<a href="#">
-																				<span class="w-48 avatar gd-primary">
-																					<img src="../assets/img/a1.jpg" alt=".">
-																					</span>
-																				</a>
-																			</div>
-																			<div class="flex">
-																				<a href="#" class="item-author text-color text-muted">Joyce McCoy</a>
-																				<div class="item-feed h-2x">
-																					<a href="#">@WordPress</a> How To Get Started With WordPress
-																				</div>
-																			</div>
-																			<div class="no-wrap">
-																				<div class="item-date text-muted text-sm d-none d-md-block">20 minutes ago</div>
-																			</div>
-																		</div>
-																		<div class="list-item" data-id="6">
-																			<div>
-																				<a href="#">
-																					<span class="w-48 avatar gd-danger">
-																						<img src="../assets/img/a6.jpg" alt=".">
-																						</span>
-																					</a>
-																				</div>
-																				<div class="flex">
-																					<a href="#" class="item-author text-color text-muted">Wayne Gray</a>
-																					<div class="item-feed h-2x">Just saw this on the 
-																						<a href="#">@eBay</a> dashboard, dude is an absolute unit.
-																					</div>
-																				</div>
-																				<div class="no-wrap">
-																					<div class="item-date text-muted text-sm d-none d-md-block">1 Week ago</div>
-																				</div>
-																			</div>
-																			<div class="list-item" data-id="4">
-																				<div>
-																					<a href="#">
-																						<span class="w-48 avatar gd-success">
-																							<img src="../assets/img/a4.jpg" alt=".">
-																							</span>
-																						</a>
-																					</div>
-																					<div class="flex">
-																						<a href="#" class="item-author text-color text-muted">Billy Johnston</a>
-																						<div class="item-feed h-2x">Big News! Introducing 
-																							<a href="#">NextUX</a> Enterprise 2.1 - additional #Windows Server support
-																						</div>
-																					</div>
-																					<div class="no-wrap">
-																						<div class="item-date text-muted text-sm d-none d-md-block">2 hours ago</div>
-																					</div>
-																				</div>
-																				<div class="list-item" data-id="13">
-																					<div>
-																						<a href="#">
-																							<span class="w-48 avatar gd-primary">L</span>
-																						</a>
-																					</div>
-																					<div class="flex">
-																						<a href="#" class="item-author text-color text-muted">Lisa Chapman</a>
-																						<div class="item-feed h-2x">Thanks! Awesome to see good support on Twitter</div>
-																					</div>
-																					<div class="no-wrap">
-																						<div class="item-date text-muted text-sm d-none d-md-block">3 weeks ago</div>
-																					</div>
-																				</div>
-																				<div class="list-item" data-id="8">
-																					<div>
-																						<a href="#">
-																							<span class="w-48 avatar gd-success">
-																								<img src="../assets/img/a8.jpg" alt=".">
-																								</span>
-																							</a>
-																						</div>
-																						<div class="flex">
-																							<a href="#" class="item-author text-color text-muted">Lawrence Cole</a>
-																							<div class="item-feed h-2x">The biggest software developer conference</div>
-																						</div>
-																						<div class="no-wrap">
-																							<div class="item-date text-muted text-sm d-none d-md-block">02/11 18</div>
-																						</div>
-																					</div>
-																				</div>
-																				<div class="jscroll-added">
-																					<div class="list-item" data-id="1">
-																						<div>
-																							<a href="#">
-																								<span class="w-48 avatar gd-primary">
-																									<img src="../assets/img/a1.jpg" alt=".">
-																									</span>
-																								</a>
-																							</div>
-																							<div class="flex">
-																								<a href="#" class="item-author text-color text-muted">Joyce McCoy</a>
-																								<div class="item-feed h-2x">
-																									<a href="#">@WordPress</a> How To Get Started With WordPress
-																								</div>
-																							</div>
-																							<div class="no-wrap">
-																								<div class="item-date text-muted text-sm d-none d-md-block">20 minutes ago</div>
-																							</div>
-																						</div>
-																						<div class="list-item" data-id="6">
-																							<div>
-																								<a href="#">
-																									<span class="w-48 avatar gd-danger">
-																										<img src="../assets/img/a6.jpg" alt=".">
-																										</span>
-																									</a>
-																								</div>
-																								<div class="flex">
-																									<a href="#" class="item-author text-color text-muted">Wayne Gray</a>
-																									<div class="item-feed h-2x">Just saw this on the 
-																										<a href="#">@eBay</a> dashboard, dude is an absolute unit.
-																									</div>
-																								</div>
-																								<div class="no-wrap">
-																									<div class="item-date text-muted text-sm d-none d-md-block">1 Week ago</div>
-																								</div>
-																							</div>
-																							<div class="list-item" data-id="4">
-																								<div>
-																									<a href="#">
-																										<span class="w-48 avatar gd-success">
-																											<img src="../assets/img/a4.jpg" alt=".">
-																											</span>
-																										</a>
-																									</div>
-																									<div class="flex">
-																										<a href="#" class="item-author text-color text-muted">Billy Johnston</a>
-																										<div class="item-feed h-2x">Big News! Introducing 
-																											<a href="#">NextUX</a> Enterprise 2.1 - additional #Windows Server support
-																										</div>
-																									</div>
-																									<div class="no-wrap">
-																										<div class="item-date text-muted text-sm d-none d-md-block">2 hours ago</div>
-																									</div>
-																								</div>
-																								<div class="list-item" data-id="13">
-																									<div>
-																										<a href="#">
-																											<span class="w-48 avatar gd-primary">L</span>
-																										</a>
-																									</div>
-																									<div class="flex">
-																										<a href="#" class="item-author text-color text-muted">Lisa Chapman</a>
-																										<div class="item-feed h-2x">Thanks! Awesome to see good support on Twitter</div>
-																									</div>
-																									<div class="no-wrap">
-																										<div class="item-date text-muted text-sm d-none d-md-block">3 weeks ago</div>
-																									</div>
-																								</div>
-																								<div class="list-item" data-id="8">
-																									<div>
-																										<a href="#">
-																											<span class="w-48 avatar gd-success">
-																												<img src="../assets/img/a8.jpg" alt=".">
-																												</span>
-																											</a>
-																										</div>
-																										<div class="flex">
-																											<a href="#" class="item-author text-color text-muted">Lawrence Cole</a>
-																											<div class="item-feed h-2x">The biggest software developer conference</div>
-																										</div>
-																										<div class="no-wrap">
-																											<div class="item-date text-muted text-sm d-none d-md-block">02/11 18</div>
-																										</div>
-																									</div>
-																									<div class="text-center p-4">
-																										<a href="ui.scroll.items.html" class="btn btn-sm white jscroll-next no-ajax">Show More</a>
-																									</div>
-																								</div>
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
     `,
     init: function() {
         document.getElementById('content').innerHTML = this.html;
+        this.getNext10();
+        this.infiniteScroll();
+    },
+    printData: function(data) {
+        for (element of data) {
+            var a =
+                `<div class="list-item" >
+			    <div>
+				<a href="#">
+					<span class="w-48 avatar gd-${element.avatarColor}">
+					${element.avatar}
+						</span>
+					</a>
+				</div>
+				<div class="flex">
+					<a href="#" class="item-author text-color text-muted">${element.name}</a>
+					<div class="item-feed h-2x">${element.text}</div>
+				</div>
+				<div class="no-wrap">
+					<div class="item-date text-muted text-sm d-none d-md-block">${element.date}</div>
+				</div>
+			</div>`;
+            $(".infiniteScroll1").append(a);
+            // console.log('this is the data ', element);
+
+        }
+    },
+    getNext10: function() {
+        this.printData(this.generateData());
+    },
+    generateData: function() {
+        var number = 10;
+        var listArray = [];
+        var avatarColor = ['info', 'warning', 'danger', 'success'];
+        var avatar = ['A', 'B', 'F', 'P', 'I', 'U', 'G', '<img src="../assets/img/a8.jpg" alt=".">', '<img src="../assets/img/a1.jpg" alt=".">', '<img src="../assets/img/a4.jpg" alt=".">', ];
+        var text = [
+            'Alibaba made a smart screen @Alibaba',
+            'Prepare the documentation for the Fitness app',
+            'Fun project from this weekend. Both computer replicas are fully functional',
+            'AI will deliver adaptive learning processes in assessments & digital textbooks to personalize learning',
+            'Just saw this on the @eBay dashboard, dude is an absolute unit.',
+            'The biggest software developer conference',
+            'Thanks! Awesome to see good support on Twitter',
+            'Big News! Introducing NextUX Enterprise 2.1 - additional #Windows Server support',
+            'Thanks! Awesome to see good support on Twitter',
+        ]
+
+        for (var i = 0; i < number; i++) {
+            listArray.push({
+                avatar: avatar[Math.floor(Math.random() * avatar.length)],
+                avatarColor: avatarColor[Math.floor(Math.random() * avatarColor.length)],
+                name: Math.random().toString(36).substring(7),
+                date: moment(new Date(+(new Date()) - Math.floor(Math.random() * 10000000000))).format('MM/DD/YYYY'),
+                text: text[Math.floor(Math.random() * text.length)]
+            })
+        }
+        return listArray;
+    },
+    infiniteScroll: function() {
+        window.onscroll = function(ev) {
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+                appInfiniteScroll.getNext10()
+            }
+        };
     }
 }

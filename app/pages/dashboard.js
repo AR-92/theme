@@ -740,5 +740,6 @@ var appDashboard = {
     `,
     init: function() {
         document.getElementById('content').innerHTML = this.html;
+
     }
 }
