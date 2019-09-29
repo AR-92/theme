@@ -2,7 +2,7 @@ var appSideBar = {
     html: `
         <div class="sidenav h-100 modal-dialog bg-light">
             <div class="navbar">
-            <a href="index.html" class="navbar-brand">
+            <a onclick="route('appDashboard')" class="navbar-brand">
             <span class="hidden-folded d-inline l-s-n-1x">Pearl</span>
             </a>
             </div>
@@ -46,6 +46,11 @@ var appSideBar = {
                                 <li><a onclick="route('appVectorMAp')" class=""><span class="nav-text">Vector Map</span></a></li>
                             </ul>
                         </li>
+                        <li><a class=""><span class="nav-icon"><i data-feather="activity"></i></span> <span class="nav-text">Animation</span> <span class="nav-caret"></span></a>
+                        <ul class="nav-sub nav-mega">
+                            <li><a onclick="route('svgAnimation')" class=""><span class="nav-text">SVG Animation</span></a></li>
+                        </ul>
+                    </li>
                         <li><a class=""><span class="nav-icon"><i data-feather="disc"></i></span> <span class="nav-text">Form</span> <span class="nav-caret"></span></a>
                             <ul class="nav-sub nav-mega">
                                 <li><a onclick="route('appFormElement')" class=""><span class="nav-text">Form Element</span></a></li>
